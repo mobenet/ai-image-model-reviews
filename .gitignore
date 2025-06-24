@@ -1,0 +1,65 @@
+# --- Python ---
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+*.pkl
+*.ipynb_checkpoints
+*.log
+
+# --- Entorns virtuals ---
+venv/
+env/
+.ai_review_env/
+.venv/
+*.env
+
+# --- Dades i arxius grans ---
+data/*.csv
+data/*.json
+data/*.parquet
+data/*.txt
+!data/README.md
+*.sqlite3
+*.db
+
+# --- Models Hugging Face (cache) ---
+.cache/
+*.bin
+tokenizer_config.json
+generation_config.json
+
+# --- Checkpoints ---
+checkpoints/
+outputs/
+*.ckpt
+*.pt
+*.h5
+
+# --- VSCode ---
+.vscode/
+*.code-workspace
+
+# --- Mac / Windows / Linux files ---
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# --- Resultats intermedis ---
+*.out
+*.tmp
+
+# --- TQDM cache (progress bar) ---
+.tqdm_cache/
+
+# --- Jupyter notebooks ---
+.ipynb_checkpoints/
+
+
+apunts
+summarization/apunts.md
+praw_notes.md
+Product Reviews Project - Part time.pdf
+evaluation
+classification/Untitled-1.md
